@@ -4,11 +4,12 @@
   "description": "project with CRUD",
   "main": "server.js",
   "scripts": {
-    "test": "node server.js"
+    "test": "jasmine",
+    "lint": "eslint \"./**/*.js\""
   },
   "repository": {
     "type": "git",
-    "url": "C:\\Users\\Ира\\Documents\\softserve_course\\lesson_31\\task"
+    "url": "https://github.com/ira-che/softserve.academy"
   },
   "keywords": [
     "nodejs",
