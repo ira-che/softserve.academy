@@ -1,0 +1,11 @@
+body{
+    color: #020215;
+}
+
+#error-message{
+    color: red;
+}
+
+.answer-wrapper{
+    display: none;
+}
