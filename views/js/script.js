@@ -13,7 +13,7 @@ FormatError.prototype.constructor = FormatError;
 
 // check variable type
 function isNumeric(num) {
-  return !Number.isNaN(num);
+  return !Number.isNaN(num/0);
 }
 
 // check if digital is natural
