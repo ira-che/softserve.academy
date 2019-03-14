@@ -13,7 +13,7 @@ describe('Check value type is number', () => {
 });
 
 describe('Check value prime number', () => {
-  it('should check 2.45', () => {
-    expect(tools.isNatural(2.45)).toBe(false);
+  it('should check 2', () => {
+    expect(tools.isNatural(2)).toBe(true);
   });
 });
